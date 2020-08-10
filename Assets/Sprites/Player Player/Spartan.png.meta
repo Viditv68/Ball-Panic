@@ -1,7 +1,43 @@
 fileFormatVersion: 2
 guid: f4124598f4ddf484f8bc08d3548624d1
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 4075436667221116008
+    second: Spartan_Idle
+  - first:
+      213: 7541170441512724549
+    second: Spartan_Walk 1
+  - first:
+      213: 2231019820910770049
+    second: Spartan_Walk 2
+  - first:
+      213: -1382313344741800855
+    second: Spartan_Walk 3
+  - first:
+      213: 6278187847869322284
+    second: Spartan_Walk 4
+  - first:
+      213: -4725547937450669637
+    second: Spartan_Walk 5
+  - first:
+      213: 3402683966700338230
+    second: Spartan_Walk 6
+  - first:
+      213: 4173646757922564547
+    second: Spartan_Walk 7
+  - first:
+      213: -3656703185918685256
+    second: Spartan_Shoot 1
+  - first:
+      213: 2474963567659944045
+    second: Spartan_Shoot 2
+  - first:
+      213: 1576594327762832518
+    second: Spartan_Shoot 3
+  - first:
+      213: -267871424073601301
+    second: Spartan_Shoot 4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +77,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -73,9 +109,285 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Spartan_Idle
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 413
+        width: 164
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86401566e0cde8830800000000000000
+      internalID: 4075436667221116008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spartan_Walk 1
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 411
+        width: 164
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548aa0dcf8e97a860800000000000000
+      internalID: 7541170441512724549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spartan_Walk 2
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 411
+        width: 164
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187fd38e4bc26fe10800000000000000
+      internalID: 2231019820910770049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spartan_Walk 3
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 412
+        width: 164
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9640266365901dce0800000000000000
+      internalID: -1382313344741800855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spartan_Walk 4
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 209
+        width: 165
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24dc69959a902750800000000000000
+      internalID: 6278187847869322284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spartan_Walk 5
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 208
+        width: 164
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb94c2b103b7b6eb0800000000000000
+      internalID: -4725547937450669637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spartan_Walk 6
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 206
+        width: 164
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c371e1a03c83f20800000000000000
+      internalID: 3402683966700338230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spartan_Walk 7
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 206
+        width: 165
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c96fe70d95cbe930800000000000000
+      internalID: 4173646757922564547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spartan_Shoot 1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 6
+        width: 164
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf074293d7c04dc0800000000000000
+      internalID: -3656703185918685256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spartan_Shoot 2
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 6
+        width: 162
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68876a7046d85220800000000000000
+      internalID: 2474963567659944045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spartan_Shoot 3
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 5
+        width: 132
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c033d103031e510800000000000000
+      internalID: 1576594327762832518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spartan_Shoot 4
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 5
+        width: 110
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee6d9aeb54584cf0800000000000000
+      internalID: -267871424073601301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

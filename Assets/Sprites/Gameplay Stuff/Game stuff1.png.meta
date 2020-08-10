@@ -1,7 +1,148 @@
 fileFormatVersion: 2
 guid: 8639a56700f731647944d935230bfab0
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 2973932739476475254
+    second: Item1
+  - first:
+      213: -540925199484510026
+    second: Item 2
+  - first:
+      213: -4061007779751031364
+    second: Item 3
+  - first:
+      213: -2676692544710887894
+    second: Item 4
+  - first:
+      213: 406156677923943833
+    second: Item 5
+  - first:
+      213: -7040850590197029709
+    second: Item 6
+  - first:
+      213: 8948597646903141575
+    second: Item 7
+  - first:
+      213: -5562311974959653033
+    second: Item 8
+  - first:
+      213: -9007078209658947896
+    second: Item 9
+  - first:
+      213: -4489352728525135329
+    second: Item 10
+  - first:
+      213: 4824821880990811181
+    second: Item 11
+  - first:
+      213: -3815185331987474589
+    second: Item 12
+  - first:
+      213: -4030529369386086737
+    second: Item 13
+  - first:
+      213: 9081175677724947940
+    second: Item 14
+  - first:
+      213: -8438275052345192693
+    second: Item 15
+  - first:
+      213: -3655905887394017086
+    second: Item 16
+  - first:
+      213: -1763582340234001857
+    second: Item 17
+  - first:
+      213: 2097762916611890138
+    second: Item 18
+  - first:
+      213: 4318885817606711584
+    second: Item 19
+  - first:
+      213: 6345408562321080875
+    second: Item 20
+  - first:
+      213: 3086598228193263464
+    second: Item 21
+  - first:
+      213: -655162851402936911
+    second: Item 22
+  - first:
+      213: 2037850940469971060
+    second: Item 25
+  - first:
+      213: 5253620003682754010
+    second: Game stuff1_23
+  - first:
+      213: -8082735574950192400
+    second: Item 29
+  - first:
+      213: 5877465252993736147
+    second: Item 30
+  - first:
+      213: 4281689703651409523
+    second: Item 31
+  - first:
+      213: 5609423280766495417
+    second: Item 32
+  - first:
+      213: 5838348539240434127
+    second: Ittem 23
+  - first:
+      213: -2211436948170169885
+    second: Item 24
+  - first:
+      213: -3818889233428845805
+    second: Game stuff1_30
+  - first:
+      213: 6197840322790266340
+    second: Item 28
+  - first:
+      213: -2297955961293553851
+    second: Arrow First Part
+  - first:
+      213: 3610726513553486363
+    second: Arrow Second Part
+  - first:
+      213: 9207690409501107327
+    second: Sticky Arrow First part
+  - first:
+      213: -4858742952161274345
+    second: Stikcy Arrow Second Part
+  - first:
+      213: -7316022452890669399
+    second: Obstacle Brick
+  - first:
+      213: -6525586990358468360
+    second: Live
+  - first:
+      213: 1053282428885292558
+    second: Sand Watch
+  - first:
+      213: -8175814510531170822
+    second: Coin
+  - first:
+      213: 2440928879485838971
+    second: Shiled Collectable
+  - first:
+      213: 1627675580779083715
+    second: Watch
+  - first:
+      213: -3359400816501488915
+    second: Dynamite
+  - first:
+      213: -6160319084268744715
+    second: Sticky Arrow Collectable
+  - first:
+      213: 5510469821267166628
+    second: Arrow Collectable
+  - first:
+      213: -7534759105849630896
+    second: Double Arrows Collectbale
+  - first:
+      213: -6025142023811292559
+    second: Double Sticky Arrows Collectable
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +182,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -73,9 +214,1020 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Item1
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 452
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d466ae118854920800000000000000
+      internalID: 2973932739476475254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Item 2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 450
+        width: 75
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b02ba2a56f3e78f0800000000000000
+      internalID: -540925199484510026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Item 3
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 451
+        width: 81
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd87d1c0f664a7c0800000000000000
+      internalID: -4061007779751031364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Item 4
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 452
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a263293ff4a7adad0800000000000000
+      internalID: -2676692544710887894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Item 5
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 446
+        width: 60
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9953fceb855f2a500800000000000000
+      internalID: 406156677923943833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Item 6
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 447
+        width: 67
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4e4b631bfd94e90800000000000000
+      internalID: -7040850590197029709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Item 7
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 445
+        width: 49
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4ee8de52ecf2c70800000000000000
+      internalID: 8948597646903141575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Item 8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 376
+        width: 74
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75fd0aaaab2bec2b0800000000000000
+      internalID: -5562311974959653033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Item 9
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 380
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6fd11071e600380800000000000000
+      internalID: -9007078209658947896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Item 10
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 378
+        width: 66
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1224d0aa7d92b1c0800000000000000
+      internalID: -4489352728525135329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Item 11
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 381
+        width: 72
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d244df010f535f240800000000000000
+      internalID: 4824821880990811181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Item 12
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 381
+        width: 72
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3671b9e772dbd0bc0800000000000000
+      internalID: -3815185331987474589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Item 13
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 381
+        width: 75
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae86f8a4eea018c0800000000000000
+      internalID: -4030529369386086737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Item 14
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 372
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e576bd2a21d60e70800000000000000
+      internalID: 9081175677724947940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Item 15
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 303
+        width: 45
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f8ceb3c8935ea80800000000000000
+      internalID: -8438275052345192693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Item 16
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 301
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0de9917fc934dc0800000000000000
+      internalID: -3655905887394017086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Item 17
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 295
+        width: 43
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f324336943f7687e0800000000000000
+      internalID: -1763582340234001857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Item 18
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 316
+        width: 56
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb93ab1240cc1d10800000000000000
+      internalID: 2097762916611890138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Item 19
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 335
+        width: 83
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029abe7c4c3cfeb30800000000000000
+      internalID: 4318885817606711584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Item 20
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 298
+        width: 54
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22cedfc77b6f0850800000000000000
+      internalID: 6345408562321080875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Item 21
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 295
+        width: 23
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f3fcb2cbcc5da20800000000000000
+      internalID: 3086598228193263464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Item 22
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 299
+        width: 35
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd881c9bd468e6f0800000000000000
+      internalID: -655162851402936911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Item 25
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 208
+        width: 49
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47888e322a6e74c10800000000000000
+      internalID: 2037850940469971060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game stuff1_23
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 264
+        width: 69
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add9568fe8b98e840800000000000000
+      internalID: 5253620003682754010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Item 29
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 275
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa5ea991da54df80800000000000000
+      internalID: -8082735574950192400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Item 30
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 224
+        width: 40
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd9468e183f09150800000000000000
+      internalID: 5877465252993736147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Item 31
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 227
+        width: 47
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ef690a91e9b6b30800000000000000
+      internalID: 4281689703651409523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Item 32
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 220
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9baa4ecf0cca8dd40800000000000000
+      internalID: 5609423280766495417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ittem 23
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 211
+        width: 49
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9c854401bf50150800000000000000
+      internalID: 5838348539240434127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Item 24
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 211
+        width: 51
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1a425ffc56f41e0800000000000000
+      internalID: -2211436948170169885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game stuff1_30
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 197
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31be8ecb974900bc0800000000000000
+      internalID: -3818889233428845805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Item 28
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 188
+        width: 41
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e5918e9fe6230650800000000000000
+      internalID: 6197840322790266340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow First Part
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 66
+        width: 25
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f3b917a350c10e0800000000000000
+      internalID: -2297955961293553851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow Second Part
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 69
+        width: 17
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12b07532a0eb1230800000000000000
+      internalID: 3610726513553486363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sticky Arrow First part
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 66
+        width: 38
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74a51c94a948cf70800000000000000
+      internalID: 9207690409501107327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stikcy Arrow Second Part
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 66
+        width: 16
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7169e791707429cb0800000000000000
+      internalID: -4858742952161274345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obstacle Brick
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 127
+        width: 208
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae6bae4754487a90800000000000000
+      internalID: -7316022452890669399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Live
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 91
+        width: 89
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8e5c0d4357075a0800000000000000
+      internalID: -6525586990358468360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand Watch
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 62
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e065eddd9c20e9e00800000000000000
+      internalID: 1053282428885292558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 65
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd2e4e150ca98e80800000000000000
+      internalID: -8175814510531170822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiled Collectable
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 5
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76eebf12ebefd120800000000000000
+      internalID: 2440928879485838971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watch
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 4
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c73ae1215aa69610800000000000000
+      internalID: 1627675580779083715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dynamite
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 10
+        width: 73
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2854a91c20161d0800000000000000
+      internalID: -3359400816501488915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sticky Arrow Collectable
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 4
+        width: 59
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff0a1f7e66228aa0800000000000000
+      internalID: -6160319084268744715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow Collectable
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 4
+        width: 59
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5c3225b1f197c40800000000000000
+      internalID: 5510469821267166628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double Arrows Collectbale
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 5
+        width: 59
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f51bb93882f6790800000000000000
+      internalID: -7534759105849630896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double Sticky Arrows Collectable
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 5
+        width: 59
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172237d7045626ca0800000000000000
+      internalID: -6025142023811292559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

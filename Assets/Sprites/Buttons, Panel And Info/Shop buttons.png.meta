@@ -1,7 +1,43 @@
 fileFormatVersion: 2
 guid: 44c7fa929009d3342981580cbd1e1339
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 1558799251362898948
+    second: Remove Ads Icon
+  - first:
+      213: -5059040452132007757
+    second: Double Arrow Icon
+  - first:
+      213: 7692940320645179654
+    second: Sticky Arrow Icon
+  - first:
+      213: -1095250685584823577
+    second: Double Coins Icon
+  - first:
+      213: 8605065197241236627
+    second: Double Sticky Arrow icon
+  - first:
+      213: -9040635340584599504
+    second: Share On Facebook Icon
+  - first:
+      213: -7379836495953806928
+    second: Pile of Coins Icon
+  - first:
+      213: 5851359016185129572
+    second: Bag Of Coins Icon
+  - first:
+      213: -6324935157051370060
+    second: Chest Of Coins Icon
+  - first:
+      213: -3373187239730755814
+    second: Castle Of Coins Icon
+  - first:
+      213: 5392493256805616292
+    second: Stack Of Coins Icon
+  - first:
+      213: -6889985257694500746
+    second: Watch Ads Icon
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +77,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -73,9 +109,285 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Remove Ads Icon
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 385
+        width: 125
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40461a509a7f1a510800000000000000
+      internalID: 1558799251362898948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double Arrow Icon
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 385
+        width: 126
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b01752438daac9b0800000000000000
+      internalID: -5059040452132007757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sticky Arrow Icon
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 385
+        width: 125
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609e5527670d2ca60800000000000000
+      internalID: 7692940320645179654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double Coins Icon
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 258
+        width: 125
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eaa6b9ed43ecc0f0800000000000000
+      internalID: -1095250685584823577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double Sticky Arrow icon
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 258
+        width: 125
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39cf3ae84355b6770800000000000000
+      internalID: 8605065197241236627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Share On Facebook Icon
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 258
+        width: 125
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030cc9c9e06398280800000000000000
+      internalID: -9040635340584599504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pile of Coins Icon
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 153
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9b5369ecd859990800000000000000
+      internalID: -7379836495953806928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bag Of Coins Icon
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 153
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a6efcf504343150800000000000000
+      internalID: 5851359016185129572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest Of Coins Icon
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 154
+        width: 100
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5d2905cf05938a0800000000000000
+      internalID: -6324935157051370060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Of Coins Icon
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 44
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17c7fec3180031d0800000000000000
+      internalID: -3373187239730755814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stack Of Coins Icon
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 44
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa8691eb0cf5da40800000000000000
+      internalID: 5392493256805616292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watch Ads Icon
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 24
+        width: 125
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678e07fa9ead160a0800000000000000
+      internalID: -6889985257694500746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
