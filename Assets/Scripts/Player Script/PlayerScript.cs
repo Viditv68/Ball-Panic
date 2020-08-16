@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class PlayerScript : MonoBehaviour
 {
+    public static PlayerScript instance;
+
     private float speed = 8.0f;
     private float maxVelocity = 4.0f;
 
@@ -27,12 +29,21 @@ public class PlayerScript : MonoBehaviour
 
     private float height;
 
+    private bool shootOnce;
+    private bool shootTwice;
+
 
     private void Awake()
     {
+        if(instance == null)
+        {
+            instance = this;
+        }
         float cameraHeight = Camera.main.orthographicSize;
         height = -cameraHeight - 0.8f;
         canWalk = true;
+        shootOnce = true;
+        shootTwice = true;
     }
 
     private void Update()
@@ -45,12 +56,33 @@ public class PlayerScript : MonoBehaviour
         PlayerWalkKeyboard();
     }
 
+    public void PlayerShootOnce(bool shootOnce)
+    {
+        this.shootOnce = shootOnce;
+    }
+
+    public void PlayerShootTwice(bool shootTwice)
+    {
+        this.shootTwice = shootTwice;
+    }
+
     public void ShootTheArrow()
     {
         if(Input.GetMouseButtonDown(0))
         {
-            StartCoroutine(PlayTheSHootAnimation());
-            Instantiate(arrows[0], new Vector3(transform.position.x, height, 0), Quaternion.identity);
+            if(shootOnce)
+            {
+                shootOnce = false;
+                StartCoroutine(PlayTheSHootAnimation());
+                Instantiate(arrows[2], new Vector3(transform.position.x, height, 0), Quaternion.identity);
+
+            }
+            else if(shootTwice)
+            {
+                shootTwice = false;
+                StartCoroutine(PlayTheSHootAnimation());
+                Instantiate(arrows[3], new Vector3(transform.position.x, height, 0), Quaternion.identity);
+            }
 
         }
     }
