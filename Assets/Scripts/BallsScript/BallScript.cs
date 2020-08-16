@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class BallScript : MonoBehaviour
 {
     private float forceX;
@@ -12,11 +13,23 @@ public class BallScript : MonoBehaviour
 
     [SerializeField]
     private bool moveLeft, MoveRight;
+
+
+    [SerializeField]
+    private GameObject originalBall;
+
+    private GameObject ball1, ball2;
+
+    private BallScript ball1Script, ball2Script;
+
+    [SerializeField]
+    private AudioClip[] popSounds;
     // Start is called before the first frame update
 
     private void Awake()
     {
-        SetBallSpeed(); 
+        SetBallSpeed();
+        InstantiateBalls();
     }
     void Start()
     {
@@ -27,6 +40,72 @@ public class BallScript : MonoBehaviour
     void Update()
     {
         MoveBall();
+    }
+
+    void InstantiateBalls()
+    {
+        if(this.gameObject.tag != "SmallestBall")
+        {
+            ball1 = Instantiate(originalBall);
+            ball2 = Instantiate(originalBall);
+
+            ball1Script = ball1.GetComponent<BallScript>();
+            ball2Script = ball2.GetComponent<BallScript>();
+
+            ball1.SetActive(false);
+            ball2.SetActive(false);
+        }
+    }
+
+    public void SetMoveLeft(bool moveLeft)
+    {
+        this.moveLeft = moveLeft;
+        this.MoveRight = !moveLeft;
+    }
+
+    public void SetMoveRight(bool moveRight)
+    {
+        this.MoveRight = moveRight;
+        this.moveLeft = !moveRight;
+    }
+
+    void InitializeBallsAndTurnOffCurrentBall()
+    {
+        Vector3 position = transform.position;
+        ball1.transform.position = position;
+        ball1Script.SetMoveLeft(true);
+
+        ball2.transform.position = position;
+        ball2Script.SetMoveRight(true);
+
+        ball1.SetActive(true);
+        ball2.SetActive(true);
+
+        if(gameObject.tag != "SmallestBall")
+        {
+            if (transform.position.y > 1 && transform.position.y <= 1.3f)
+            {
+                ball1.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 3.5f);
+                ball2.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 3.5f);
+            }
+
+            else if (transform.position.y > 1.3f)
+            {
+                ball1.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 2f);
+                ball2.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 2f);
+            }
+
+            else if (transform.position.y < 1)
+            {
+                ball1.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 5.5f);
+                ball2.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 5.5f);
+            }
+
+        }
+
+        AudioSource.PlayClipAtPoint(popSounds[Random.Range(0, popSounds.Length)], transform.position);
+
+        gameObject.SetActive(false);
     }
 
     void MoveBall()
@@ -79,6 +158,19 @@ public class BallScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D target)
     {
+
+        if(target.tag == "FirstArrow" || target.tag == "SecondArrow" | target.tag == "FirstStickyArrow" || target.tag == "SecondStickyArrow")
+        {
+            if(gameObject.tag != "SmallestBall")
+            {
+                InitializeBallsAndTurnOffCurrentBall();
+            }
+            else
+            {
+                gameObject.SetActive(false);
+            }
+        }
+
         if(target.tag == "BottomBrick")
         {
             myRigidBody.velocity = new Vector2(0, forceY);

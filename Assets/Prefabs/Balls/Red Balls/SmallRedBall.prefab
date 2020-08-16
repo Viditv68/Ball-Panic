@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1276514089465405019}
   - component: {fileID: 4440918664111517279}
   - component: {fileID: 6047365304080154004}
+  - component: {fileID: 3674982330544091259}
   m_Layer: 12
   m_Name: SmallRedBall
   m_TagString: SmallBall
@@ -115,9 +116,28 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.04}
   serializedVersion: 2
   m_Radius: 1.12
+--- !u!114 &3674982330544091259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4273686334155920404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdba10a34d70305499d2c29fb39762ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myRigidBody: {fileID: 4440918664111517279}
+  moveLeft: 0
+  MoveRight: 0
+  originalBall: {fileID: 87860604953970798, guid: 1e09e10f41b790f438e1bd17e37de7cf, type: 3}
+  popSounds:
+  - {fileID: 8300000, guid: 6b8392a90ddba744384bf47228bbd2d5, type: 3}
+  - {fileID: 8300000, guid: a1c3430cc635b4648abee41d3bc3e148, type: 3}

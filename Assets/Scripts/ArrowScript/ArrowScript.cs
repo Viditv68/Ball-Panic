@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ArrowScript : MonoBehaviour
 {
-    private float arrowSpeed = 4.0f;
+    private float arrowSpeed = 6.0f;
 
     private bool canShootStickyArrow;
 
@@ -28,6 +28,12 @@ public class ArrowScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D target)
     {
+
+        if(target.tag == "LargestBall" || target.tag == "LargeBall" || target.tag == "MediumBall" || target.tag == "SmallBall" || target.tag == "SmallestBall")
+        {
+            gameObject.SetActive(false);
+        }
+
         if(target.tag == "TopBrick")
         {
             gameObject.SetActive(false);
