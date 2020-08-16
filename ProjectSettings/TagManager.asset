@@ -42,6 +42,7 @@ TagManager:
   - MoveRightButton
   - ShootButton
   - LargestBall
+  - SecondStickyArrow
   layers:
   - Default
   - TransparentFX
