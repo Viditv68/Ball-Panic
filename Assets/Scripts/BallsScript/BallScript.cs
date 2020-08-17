@@ -12,7 +12,7 @@ public class BallScript : MonoBehaviour
     private Rigidbody2D myRigidBody;
 
     [SerializeField]
-    private bool moveLeft, MoveRight;
+    private bool moveLeft, moveRight;
 
 
     [SerializeField]
@@ -60,12 +60,12 @@ public class BallScript : MonoBehaviour
     public void SetMoveLeft(bool moveLeft)
     {
         this.moveLeft = moveLeft;
-        this.MoveRight = !moveLeft;
+        this.moveRight = !moveLeft;
     }
 
     public void SetMoveRight(bool moveRight)
     {
-        this.MoveRight = moveRight;
+        this.moveRight = moveRight;
         this.moveLeft = !moveRight;
     }
 
@@ -117,7 +117,7 @@ public class BallScript : MonoBehaviour
             transform.position = tmp;
         }
 
-        if (MoveRight)
+        if (moveRight)
         {
             Vector3 tmp = transform.position;
             tmp.x += (forceX * Time.deltaTime);
@@ -171,7 +171,29 @@ public class BallScript : MonoBehaviour
             }
         }
 
-        if(target.tag == "BottomBrick")
+        if(target.tag == "UnbrakableBrickTop" || target.tag == "BrokenBrickTop" || target.tag == "UnbreakableBrickTopVertical")
+        {
+            myRigidBody.velocity = new Vector2(0, 5);
+        }
+
+        else if(target.tag == "UnbreakableBrickBottom" || target.tag == "BrokenBrickBottom" || target.tag == "UnbreakableBrickBottomVertical")
+        {
+            myRigidBody.velocity = new Vector2(0, -2);
+        }
+
+        else if(target.tag == "UnbreakableBrickLeft" || target.tag == "BrokenBrickLeft" || target.tag == "UnbreakableBrickLeftVertical")
+        {
+            moveLeft = true;
+            moveRight = false;
+        }
+        else if(target.tag == "UnbreakableBrickRight" || target.tag == "BrokenBrickRight" || target.tag == "UnbreakableBrickRightvertical")
+        {
+            moveRight = true;
+            moveLeft = false;
+        }
+
+
+        if (target.tag == "BottomBrick")
         {
             myRigidBody.velocity = new Vector2(0, forceY);
         }
@@ -179,12 +201,12 @@ public class BallScript : MonoBehaviour
         if(target.tag == "LeftBrick")
         {
             moveLeft = false;
-            MoveRight = true;
+            moveRight = true;
         }
 
         if (target.tag == "RightBrick")
         {
-            MoveRight = false;
+            moveRight = false;
             moveLeft = true;
         }
     }

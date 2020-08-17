@@ -140,6 +140,9 @@ public class ArrowScript : MonoBehaviour
 
         if(target.tag == "BrokenBrickTop" || target.tag == "BrokenBrickBottom" || target.tag == "BrokenBrickLeft" || target.tag == "BrokenBrickRight")
         {
+
+            BrickScript brick = target.gameObject.GetComponentInParent<BrickScript>();
+            brick.StartCoroutine(brick.BreakTheBrick());
             if(gameObject.tag == "FirstArrow" || gameObject.tag == "FirstStickyArrow")
             {
                 PlayerScript.instance.PlayerShootOnce(true);
