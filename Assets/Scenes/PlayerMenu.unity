@@ -858,17 +858,13 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3094006210748639857, guid: 39dc2e219cd821c479bfced8ac55f9ea, type: 3}
-      propertyPath: priceTags.Array.size
-      value: 5
-      objectReference: {fileID: 0}
+      propertyPath: scoreText
+      value: 
+      objectReference: {fileID: 50108148}
     - target: {fileID: 3094006210748639857, guid: 39dc2e219cd821c479bfced8ac55f9ea, type: 3}
-      propertyPath: weaponIcons.Array.size
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 3094006210748639857, guid: 39dc2e219cd821c479bfced8ac55f9ea, type: 3}
-      propertyPath: weaponArrows.Array.size
-      value: 4
-      objectReference: {fileID: 0}
+      propertyPath: coinText
+      value: 
+      objectReference: {fileID: 792311668}
     - target: {fileID: 3094006210748639857, guid: 39dc2e219cd821c479bfced8ac55f9ea, type: 3}
       propertyPath: priceTags.Array.data[0]
       value: 
@@ -914,22 +910,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1246934740}
     - target: {fileID: 3094006210748639857, guid: 39dc2e219cd821c479bfced8ac55f9ea, type: 3}
-      propertyPath: weaponArrows.Array.data[0]
-      value: 
-      objectReference: {fileID: 5510469821267166628, guid: 8639a56700f731647944d935230bfab0, type: 3}
-    - target: {fileID: 3094006210748639857, guid: 39dc2e219cd821c479bfced8ac55f9ea, type: 3}
-      propertyPath: weaponArrows.Array.data[1]
-      value: 
-      objectReference: {fileID: -7534759105849630896, guid: 8639a56700f731647944d935230bfab0, type: 3}
-    - target: {fileID: 3094006210748639857, guid: 39dc2e219cd821c479bfced8ac55f9ea, type: 3}
-      propertyPath: weaponArrows.Array.data[2]
-      value: 
-      objectReference: {fileID: -6160319084268744715, guid: 8639a56700f731647944d935230bfab0, type: 3}
-    - target: {fileID: 3094006210748639857, guid: 39dc2e219cd821c479bfced8ac55f9ea, type: 3}
-      propertyPath: weaponArrows.Array.data[3]
-      value: 
-      objectReference: {fileID: -7534759105849630896, guid: 8639a56700f731647944d935230bfab0, type: 3}
-    - target: {fileID: 3094006210748639857, guid: 39dc2e219cd821c479bfced8ac55f9ea, type: 3}
       propertyPath: buyPlayerPanel
       value: 
       objectReference: {fileID: 487538876}
@@ -945,14 +925,6 @@ PrefabInstance:
       propertyPath: coinShop
       value: 
       objectReference: {fileID: 1665733981}
-    - target: {fileID: 3094006210748639857, guid: 39dc2e219cd821c479bfced8ac55f9ea, type: 3}
-      propertyPath: scoreText
-      value: 
-      objectReference: {fileID: 50108148}
-    - target: {fileID: 3094006210748639857, guid: 39dc2e219cd821c479bfced8ac55f9ea, type: 3}
-      propertyPath: coinText
-      value: 
-      objectReference: {fileID: 792311668}
     - target: {fileID: 3512229774881770447, guid: 39dc2e219cd821c479bfced8ac55f9ea, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.1097004

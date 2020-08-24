@@ -43,3 +43,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 597f14a61369e0e439bc81a7bf15214f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoreText: {fileID: 0}
+  coinText: {fileID: 0}
+  players: 
+  weapons: 
+  priceTags:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  weaponIcons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  weaponArrows:
+  - {fileID: 5510469821267166628, guid: 8639a56700f731647944d935230bfab0, type: 3}
+  - {fileID: -7534759105849630896, guid: 8639a56700f731647944d935230bfab0, type: 3}
+  - {fileID: -6160319084268744715, guid: 8639a56700f731647944d935230bfab0, type: 3}
+  - {fileID: -7534759105849630896, guid: 8639a56700f731647944d935230bfab0, type: 3}
+  selectedWeapon: 0
+  selectedPlayer: 0
+  buyPlayerPanel: {fileID: 0}
+  yesButton: {fileID: 0}
+  buyPlayerText: {fileID: 0}
+  coinShop: {fileID: 0}
