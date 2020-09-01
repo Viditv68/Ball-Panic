@@ -1,11 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class MainMenuController : MonoBehaviour
 {
-
+    
     [SerializeField]
     private Animator settingsButtonAnim;
 
@@ -116,6 +117,7 @@ public class MainMenuController : MonoBehaviour
     public void PlayButton()
     {
         MusicController.instance.PlayClickClip();
+        SceneManager.LoadScene("PlayerMenu");
     }
 
     IEnumerator DissableSettingsButtonWhilePlayingAnimation()

@@ -32,6 +32,8 @@ public class PlayerScript : MonoBehaviour
     private bool shootOnce;
     private bool shootTwice;
 
+    private bool moveLeft, moveRight;
+
 
     private void Awake()
     {
@@ -86,6 +88,13 @@ public class PlayerScript : MonoBehaviour
 
         }
     }
+
+    public void StopMoving()
+    {
+        moveLeft = moveRight = false;
+        animator.SetBool("Walk", false);
+    }
+
 
     IEnumerator PlayTheSHootAnimation()
     {

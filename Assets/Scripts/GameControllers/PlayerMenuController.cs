@@ -247,6 +247,7 @@ public class PlayerMenuController : MonoBehaviour
     public void GoToLevelMenu()
     {
         SceneManager.LoadScene("LevelMenu");
+        
     }
 
     public void GoToMainMenu()

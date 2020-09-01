@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class LevelController : MonoBehaviour
 {
     public Text scoreText, coinText;
-
+    
     public bool[] levels;
 
     public Button[] levelButtons;
@@ -25,6 +25,7 @@ public class LevelController : MonoBehaviour
 
     private void InitializeLevelMenu()
     {
+        
         scoreText.text = "" + GameController.instance.highScore;
         coinText.text = "" + GameController.instance.coins;
 
@@ -49,6 +50,7 @@ public class LevelController : MonoBehaviour
         if(GameController.instance.isMusicOn)
         {
             MusicController.instance.GameIsLoadedTurnOffMusic();
+            SceneManager.LoadScene("LevelSetup");
         }
 
         string level = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.name;
@@ -102,7 +104,10 @@ public class LevelController : MonoBehaviour
 
         }
         LoadingScreen.instance.PlayLoadingScreen();
-        SceneManager.LoadScene(level);
+        GameController.instance.isGameStartedFromLevelMenu = true;
+        //SceneManager.LoadScene(level);
+
+        SceneManager.LoadScene("LevelSetup");
     }
     
     public void OpenCoinShop()

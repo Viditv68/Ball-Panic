@@ -7,12 +7,16 @@ public class LoadingScreen : MonoBehaviour
     public static LoadingScreen instance;
 
     [SerializeField]
-    private GameObject bgImage, logoImage, text;
+    private GameObject bgImage, logoImage, text, fadePanel;
+
+    [SerializeField]
+    private Animator fadeAnim;
 
 
     void Awake()
     {
         MakeSingleton();
+        Hide();
     }
 
     private void MakeSingleton()
@@ -33,6 +37,7 @@ public class LoadingScreen : MonoBehaviour
         bgImage.SetActive(true);
         logoImage.SetActive(true);
         text.SetActive(true);
+        
     }
 
     private void Hide()
@@ -44,14 +49,48 @@ public class LoadingScreen : MonoBehaviour
 
     public void PlayLoadingScreen()
     {
-        ShowLoadingScreen();
+        StartCoroutine(ShowLoadingScreen());
     }
+
+
+    public void PlayFadeInAnimation()
+    {
+        StartCoroutine(FadeIn());
+    }
+
+    IEnumerator FadeIn()
+    {
+        fadeAnim.Play("FadeIn");
+        yield return StartCoroutine(MyCoroutine.WaitForRealSeconds(0.4f));
+
+        if(GameplayController.instance != null)
+        {
+            GameplayController.instance.SetHasLevelBegan(true);
+        }
+
+        yield return StartCoroutine(MyCoroutine.WaitForRealSeconds(0.9f));
+        fadePanel.SetActive(false);
+    }
+
+    public void FadeOut()
+    {
+        fadePanel.SetActive(true);
+        fadeAnim.Play("FadeOut");
+    }
+
+
 
     IEnumerator ShowLoadingScreen()
     {
+        Debug.Log("hello");
         Show();
-        yield return new WaitForSeconds(2f);
+        yield return StartCoroutine(MyCoroutine.WaitForRealSeconds(1f));
         Hide();
+
+        if(GameplayController.instance!=null)
+        {
+            GameplayController.instance.SetHasLevelBegan(true);
+        }
 
 
     }

@@ -12,9 +12,12 @@ public class GameController : MonoBehaviour
 
     public int currentLevel = -1;
     public int currentScore;
+    public int currentLives;
 
+    public bool isGameStartedFromLevelMenu;
     public bool isGameStartedFirstTime;
     public bool isMusicOn;
+    public bool doubelCoins;
 
     public int selectedPlayer;
     public int selectedWeapon;
@@ -221,12 +224,23 @@ class GameData
     private int coins;
     private int highScore;
 
+    private bool doubleCoins;
+
     private bool[] players;
     private bool[] levels;
     private bool[] weapons;
     private bool[] achievements;
     private bool[] collectedItems;
 
+    public void SetDoubleCoins(bool doubleCoins)
+    {
+        this.doubleCoins = doubleCoins;
+    }
+
+    public bool GetDoubleCoins()
+    {
+        return this.doubleCoins;
+    }
     public void setIsGameStartedFirstTime(bool isGameStartedFirstTime)
     {
         this.isGameStartedFirstTime = isGameStartedFirstTime;
