@@ -39,8 +39,8 @@ public class LevelController : MonoBehaviour
             }
             else
             {
-                levelButtons[i - 1].interactable = false;
-                levelText[i - 1].gameObject.SetActive(false);
+                //levelButtons[i - 1].interactable = false;
+                //levelText[i - 1].gameObject.SetActive(false);
             }
         }
     }

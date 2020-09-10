@@ -30,8 +30,9 @@ public class GameplayController : MonoBehaviour
 
     public int playerLives, playerScore, coins;
 
-    private bool isGamePaused, hasLevelBegan, levelInProgress, countDownLevel;
+    private bool isGamePaused, hasLevelBegan, countDownLevel;
 
+    public bool levelInProgress;
     [SerializeField]
     private GameObject[] endOfLevelRewards;
 
@@ -61,6 +62,8 @@ public class GameplayController : MonoBehaviour
             instance = this;
         }
     }
+
+ 
 
     void InitializeBrickAndPlayer()
     {
@@ -171,30 +174,7 @@ public class GameplayController : MonoBehaviour
     }
 
 
-    IEnumerator PlayerDiedRestartLevel()
-    {
-        levelInProgress = false;
-        coins = 0;
-        smallBallCount = 0;
-
-        Time.timeScale = 0;
-        if(LoadingScreen.instance != null)
-        {
-            LoadingScreen.instance.FadeOut();
-        }
-
-        yield return StartCoroutine(MyCoroutine.WaitForRealSeconds(1.25f));
-
-        //reload current level
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-
-        if(LoadingScreen.instance != null)
-        {
-            LoadingScreen.instance.PlayFadeInAnimation();
-        }
-
-
-    }
+    
 
 
     public void PlayerDied()
@@ -352,6 +332,31 @@ public class GameplayController : MonoBehaviour
         {
             LoadingScreen.instance.PlayLoadingScreen();
         }
+    }
+
+    IEnumerator PlayerDiedRestartLevel()
+    {
+        levelInProgress = false;
+        coins = 0;
+        smallBallCount = 0;
+
+        Time.timeScale = 0;
+        if (LoadingScreen.instance != null)
+        {
+            LoadingScreen.instance.FadeOut();
+        }
+
+        yield return StartCoroutine(MyCoroutine.WaitForRealSeconds(1.25f));
+
+        //reload current level
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
+        if (LoadingScreen.instance != null)
+        {
+            LoadingScreen.instance.PlayFadeInAnimation();
+        }
+
+
     }
 
     IEnumerator PromptTheUserToWatchAVideo()

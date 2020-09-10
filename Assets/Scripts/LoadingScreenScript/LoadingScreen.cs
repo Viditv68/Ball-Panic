@@ -82,7 +82,7 @@ public class LoadingScreen : MonoBehaviour
 
     IEnumerator ShowLoadingScreen()
     {
-        Debug.Log("hello");
+
         Show();
         yield return StartCoroutine(MyCoroutine.WaitForRealSeconds(1f));
         Hide();
