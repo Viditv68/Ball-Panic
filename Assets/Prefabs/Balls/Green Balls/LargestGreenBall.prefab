@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3211091168546136459}
   - component: {fileID: 1116904643281546947}
   - component: {fileID: 5965295139755197945}
+  - component: {fileID: -7159150875094419508}
   m_Layer: 12
   m_Name: LargestGreenBall
   m_TagString: LargestBall
@@ -121,3 +122,23 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.04}
   serializedVersion: 2
   m_Radius: 1.12
+--- !u!114 &-7159150875094419508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6947975407323017836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdba10a34d70305499d2c29fb39762ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myRigidBody: {fileID: 1116904643281546947}
+  moveLeft: 0
+  moveRight: 0
+  originalBall: {fileID: 3380636075463792942, guid: 6a049dda7e4787a4fb8305015f246d5e, type: 3}
+  popSounds: []
+  x: 0
+  y: 0
+  collectableItems: []

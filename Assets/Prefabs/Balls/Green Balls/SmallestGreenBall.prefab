@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6515329972774111541}
   - component: {fileID: 5752723520222189502}
   - component: {fileID: 8888365376276369096}
+  - component: {fileID: -7141979269097037324}
   m_Layer: 12
   m_Name: SmallestGreenBall
   m_TagString: SmallestBall
@@ -121,3 +122,23 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.04}
   serializedVersion: 2
   m_Radius: 1.12
+--- !u!114 &-7141979269097037324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8201821924789236931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdba10a34d70305499d2c29fb39762ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myRigidBody: {fileID: 5752723520222189502}
+  moveLeft: 0
+  moveRight: 0
+  originalBall: {fileID: 0}
+  popSounds: []
+  x: 0
+  y: 0
+  collectableItems: []

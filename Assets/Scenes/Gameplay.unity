@@ -160,6 +160,9 @@ MonoBehaviour:
   moveRight: 0
   originalBall: {fileID: 87860604953970798, guid: 1e09e10f41b790f438e1bd17e37de7cf, type: 3}
   popSounds: []
+  x: 0
+  y: 0
+  collectableItems: []
 --- !u!58 &2942125
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -260,7 +263,7 @@ Transform:
   m_LocalScale: {x: 0.198, y: 0.199, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 35
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &58792490
 GameObject:
@@ -299,6 +302,9 @@ MonoBehaviour:
   moveRight: 0
   originalBall: {fileID: 87860604953970798, guid: 1e09e10f41b790f438e1bd17e37de7cf, type: 3}
   popSounds: []
+  x: 0
+  y: 0
+  collectableItems: []
 --- !u!58 &58792492
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -399,7 +405,7 @@ Transform:
   m_LocalScale: {x: 0.198, y: 0.199, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &99166119
 PrefabInstance:
@@ -495,6 +501,9 @@ MonoBehaviour:
   moveRight: 0
   originalBall: {fileID: 87860604953970798, guid: 1e09e10f41b790f438e1bd17e37de7cf, type: 3}
   popSounds: []
+  x: 0
+  y: 0
+  collectableItems: []
 --- !u!58 &122717853
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -595,7 +604,7 @@ Transform:
   m_LocalScale: {x: 0.198, y: 0.199, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &136071591
 GameObject:
@@ -634,6 +643,9 @@ MonoBehaviour:
   moveRight: 0
   originalBall: {fileID: 4273686334155920404, guid: 0f0cd647e0f995642881e56119d4452d, type: 3}
   popSounds: []
+  x: 0
+  y: 0
+  collectableItems: []
 --- !u!58 &136071593
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -734,7 +746,7 @@ Transform:
   m_LocalScale: {x: 0.404, y: 0.4, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &142826730
 GameObject:
@@ -773,6 +785,9 @@ MonoBehaviour:
   moveRight: 0
   originalBall: {fileID: 7726363039163637728, guid: 2e24e113ee1a26145a042b8db7a03bf7, type: 3}
   popSounds: []
+  x: 0
+  y: 0
+  collectableItems: []
 --- !u!58 &142826732
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -873,7 +888,7 @@ Transform:
   m_LocalScale: {x: 0.626, y: 0.621, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &289821158
 PrefabInstance:
@@ -969,6 +984,9 @@ MonoBehaviour:
   moveRight: 0
   originalBall: {fileID: 87860604953970798, guid: 1e09e10f41b790f438e1bd17e37de7cf, type: 3}
   popSounds: []
+  x: 0
+  y: 0
+  collectableItems: []
 --- !u!58 &468236849
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1069,7 +1087,7 @@ Transform:
   m_LocalScale: {x: 0.198, y: 0.199, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &508470377
 GameObject:
@@ -1108,6 +1126,9 @@ MonoBehaviour:
   moveRight: 0
   originalBall: {fileID: 4273686334155920404, guid: 0f0cd647e0f995642881e56119d4452d, type: 3}
   popSounds: []
+  x: 0
+  y: 0
+  collectableItems: []
 --- !u!58 &508470379
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1208,7 +1229,7 @@ Transform:
   m_LocalScale: {x: 0.404, y: 0.4, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
@@ -1330,6 +1351,9 @@ MonoBehaviour:
   moveRight: 0
   originalBall: {fileID: 4273686334155920404, guid: 0f0cd647e0f995642881e56119d4452d, type: 3}
   popSounds: []
+  x: 0
+  y: 0
+  collectableItems: []
 --- !u!58 &528472837
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1430,7 +1454,7 @@ Transform:
   m_LocalScale: {x: 0.404, y: 0.4, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &541173040
 GameObject:
@@ -1469,6 +1493,9 @@ MonoBehaviour:
   moveRight: 0
   originalBall: {fileID: 87860604953970798, guid: 1e09e10f41b790f438e1bd17e37de7cf, type: 3}
   popSounds: []
+  x: 0
+  y: 0
+  collectableItems: []
 --- !u!58 &541173042
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1569,7 +1596,7 @@ Transform:
   m_LocalScale: {x: 0.198, y: 0.199, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &558659239
 GameObject:
@@ -1608,6 +1635,9 @@ MonoBehaviour:
   moveRight: 0
   originalBall: {fileID: 4273686334155920404, guid: 0f0cd647e0f995642881e56119d4452d, type: 3}
   popSounds: []
+  x: 0
+  y: 0
+  collectableItems: []
 --- !u!58 &558659241
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1708,7 +1738,7 @@ Transform:
   m_LocalScale: {x: 0.404, y: 0.4, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &589212918
 GameObject:
@@ -1747,6 +1777,9 @@ MonoBehaviour:
   moveRight: 0
   originalBall: {fileID: 0}
   popSounds: []
+  x: 0
+  y: 0
+  collectableItems: []
 --- !u!58 &589212920
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1847,7 +1880,7 @@ Transform:
   m_LocalScale: {x: 0.099, y: 0.101, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &615628458
 GameObject:
@@ -1886,6 +1919,9 @@ MonoBehaviour:
   moveRight: 0
   originalBall: {fileID: 0}
   popSounds: []
+  x: 0
+  y: 0
+  collectableItems: []
 --- !u!58 &615628460
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1986,7 +2022,7 @@ Transform:
   m_LocalScale: {x: 0.099, y: 0.101, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &633886443
 GameObject:
@@ -2025,6 +2061,9 @@ MonoBehaviour:
   moveRight: 0
   originalBall: {fileID: 7726363039163637728, guid: 2e24e113ee1a26145a042b8db7a03bf7, type: 3}
   popSounds: []
+  x: 0
+  y: 0
+  collectableItems: []
 --- !u!58 &633886445
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2125,7 +2164,7 @@ Transform:
   m_LocalScale: {x: 0.626, y: 0.621, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &638247586
 GameObject:
@@ -2164,6 +2203,9 @@ MonoBehaviour:
   moveRight: 0
   originalBall: {fileID: 0}
   popSounds: []
+  x: 0
+  y: 0
+  collectableItems: []
 --- !u!58 &638247588
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2264,7 +2306,7 @@ Transform:
   m_LocalScale: {x: 0.099, y: 0.101, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &656732998
 GameObject:
@@ -2303,6 +2345,9 @@ MonoBehaviour:
   moveRight: 0
   originalBall: {fileID: 0}
   popSounds: []
+  x: 0
+  y: 0
+  collectableItems: []
 --- !u!58 &656733000
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2403,7 +2448,7 @@ Transform:
   m_LocalScale: {x: 0.099, y: 0.101, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &693484920
 GameObject:
@@ -2442,6 +2487,9 @@ MonoBehaviour:
   moveRight: 0
   originalBall: {fileID: 0}
   popSounds: []
+  x: 0
+  y: 0
+  collectableItems: []
 --- !u!58 &693484922
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2542,7 +2590,7 @@ Transform:
   m_LocalScale: {x: 0.099, y: 0.101, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 39
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &718873278
 PrefabInstance:
@@ -2694,6 +2742,9 @@ MonoBehaviour:
   moveRight: 0
   originalBall: {fileID: 0}
   popSounds: []
+  x: 0
+  y: 0
+  collectableItems: []
 --- !u!58 &740761608
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2794,7 +2845,7 @@ Transform:
   m_LocalScale: {x: 0.099, y: 0.101, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &782747504
 GameObject:
@@ -2833,6 +2884,9 @@ MonoBehaviour:
   moveRight: 0
   originalBall: {fileID: 0}
   popSounds: []
+  x: 0
+  y: 0
+  collectableItems: []
 --- !u!58 &782747506
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2933,8 +2987,65 @@ Transform:
   m_LocalScale: {x: 0.099, y: 0.101, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &848916866
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4902139534678993802, guid: d432f64178b17a64cadc0aca0833c57a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.0345497
+      objectReference: {fileID: 0}
+    - target: {fileID: 4902139534678993802, guid: d432f64178b17a64cadc0aca0833c57a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.4623137
+      objectReference: {fileID: 0}
+    - target: {fileID: 4902139534678993802, guid: d432f64178b17a64cadc0aca0833c57a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4902139534678993802, guid: d432f64178b17a64cadc0aca0833c57a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4902139534678993802, guid: d432f64178b17a64cadc0aca0833c57a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4902139534678993802, guid: d432f64178b17a64cadc0aca0833c57a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4902139534678993802, guid: d432f64178b17a64cadc0aca0833c57a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4902139534678993802, guid: d432f64178b17a64cadc0aca0833c57a, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4902139534678993802, guid: d432f64178b17a64cadc0aca0833c57a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4902139534678993802, guid: d432f64178b17a64cadc0aca0833c57a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4902139534678993802, guid: d432f64178b17a64cadc0aca0833c57a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9081482626069845670, guid: d432f64178b17a64cadc0aca0833c57a, type: 3}
+      propertyPath: m_Name
+      value: Dynamite
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d432f64178b17a64cadc0aca0833c57a, type: 3}
 --- !u!1 &899887488
 GameObject:
   m_ObjectHideFlags: 0
@@ -3038,7 +3149,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &922019352
 GameObject:
@@ -3077,6 +3188,9 @@ MonoBehaviour:
   moveRight: 0
   originalBall: {fileID: 87860604953970798, guid: 1e09e10f41b790f438e1bd17e37de7cf, type: 3}
   popSounds: []
+  x: 0
+  y: 0
+  collectableItems: []
 --- !u!58 &922019354
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3177,7 +3291,7 @@ Transform:
   m_LocalScale: {x: 0.198, y: 0.199, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &960422298
 GameObject:
@@ -3216,6 +3330,9 @@ MonoBehaviour:
   moveRight: 0
   originalBall: {fileID: 0}
   popSounds: []
+  x: 0
+  y: 0
+  collectableItems: []
 --- !u!58 &960422300
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3316,7 +3433,7 @@ Transform:
   m_LocalScale: {x: 0.099, y: 0.101, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 40
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1041163523
 PrefabInstance:
@@ -3328,10 +3445,6 @@ PrefabInstance:
     - target: {fileID: 4949258998571240527, guid: 4801defc78e069b41b796915ba668ae1, type: 3}
       propertyPath: m_Name
       value: LargestRedBall
-      objectReference: {fileID: 0}
-    - target: {fileID: 4949258998571240527, guid: 4801defc78e069b41b796915ba668ae1, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4967484399143530631, guid: 4801defc78e069b41b796915ba668ae1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3416,6 +3529,9 @@ MonoBehaviour:
   moveRight: 0
   originalBall: {fileID: 87860604953970798, guid: 1e09e10f41b790f438e1bd17e37de7cf, type: 3}
   popSounds: []
+  x: 0
+  y: 0
+  collectableItems: []
 --- !u!58 &1119796686
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3516,7 +3632,7 @@ Transform:
   m_LocalScale: {x: 0.198, y: 0.199, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1378103412
 GameObject:
@@ -3555,6 +3671,9 @@ MonoBehaviour:
   moveRight: 0
   originalBall: {fileID: 0}
   popSounds: []
+  x: 0
+  y: 0
+  collectableItems: []
 --- !u!58 &1378103414
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3655,7 +3774,7 @@ Transform:
   m_LocalScale: {x: 0.099, y: 0.101, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 36
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1488007578
 GameObject:
@@ -3694,6 +3813,9 @@ MonoBehaviour:
   moveRight: 0
   originalBall: {fileID: 0}
   popSounds: []
+  x: 0
+  y: 0
+  collectableItems: []
 --- !u!58 &1488007580
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3794,7 +3916,7 @@ Transform:
   m_LocalScale: {x: 0.099, y: 0.101, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1573126776
 GameObject:
@@ -3833,6 +3955,9 @@ MonoBehaviour:
   moveRight: 0
   originalBall: {fileID: 0}
   popSounds: []
+  x: 0
+  y: 0
+  collectableItems: []
 --- !u!58 &1573126778
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3933,7 +4058,7 @@ Transform:
   m_LocalScale: {x: 0.099, y: 0.101, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1606294201
 GameObject:
@@ -3972,6 +4097,9 @@ MonoBehaviour:
   moveRight: 0
   originalBall: {fileID: 0}
   popSounds: []
+  x: 0
+  y: 0
+  collectableItems: []
 --- !u!58 &1606294203
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4072,7 +4200,7 @@ Transform:
   m_LocalScale: {x: 0.099, y: 0.101, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1685568507
 GameObject:
@@ -4111,6 +4239,9 @@ MonoBehaviour:
   moveRight: 0
   originalBall: {fileID: 0}
   popSounds: []
+  x: 0
+  y: 0
+  collectableItems: []
 --- !u!58 &1685568509
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4211,7 +4342,7 @@ Transform:
   m_LocalScale: {x: 0.099, y: 0.101, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1686356121
 GameObject:
@@ -4250,6 +4381,9 @@ MonoBehaviour:
   moveRight: 0
   originalBall: {fileID: 0}
   popSounds: []
+  x: 0
+  y: 0
+  collectableItems: []
 --- !u!58 &1686356123
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4350,7 +4484,7 @@ Transform:
   m_LocalScale: {x: 0.099, y: 0.101, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1986268443
 GameObject:
@@ -4389,6 +4523,9 @@ MonoBehaviour:
   moveRight: 0
   originalBall: {fileID: 0}
   popSounds: []
+  x: 0
+  y: 0
+  collectableItems: []
 --- !u!58 &1986268445
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4489,7 +4626,7 @@ Transform:
   m_LocalScale: {x: 0.099, y: 0.101, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2051207727
 GameObject:
@@ -4528,6 +4665,9 @@ MonoBehaviour:
   moveRight: 0
   originalBall: {fileID: 87860604953970798, guid: 1e09e10f41b790f438e1bd17e37de7cf, type: 3}
   popSounds: []
+  x: 0
+  y: 0
+  collectableItems: []
 --- !u!58 &2051207729
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4628,7 +4768,7 @@ Transform:
   m_LocalScale: {x: 0.198, y: 0.199, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 38
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2086639685
 GameObject:
@@ -4667,6 +4807,9 @@ MonoBehaviour:
   moveRight: 0
   originalBall: {fileID: 0}
   popSounds: []
+  x: 0
+  y: 0
+  collectableItems: []
 --- !u!58 &2086639687
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4767,7 +4910,7 @@ Transform:
   m_LocalScale: {x: 0.099, y: 0.101, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 37
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &682683750173165321
 PrefabInstance:
@@ -5375,3 +5518,12 @@ MonoBehaviour:
   - {fileID: 2263059897838907119, guid: 37bcb46a4ce7bca44ae8af247b792485, type: 3}
   clip: {fileID: 7400000, guid: 309ed31e4f9b45a4aa12624c93bde780, type: 2}
   shootClip: {fileID: 8300000, guid: e5e133f39eb374147add955cb066caf7, type: 3}
+  shield: {fileID: 0}
+  hasShield: 0
+  isInvincible: 0
+  singleArrow: 0
+  doubleArrows: 0
+  singleStickyArrow: 0
+  doubleStickyArrows: 0
+  shootFirstArrow: 0
+  shootSecondArrow: 0

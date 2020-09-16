@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 
@@ -24,13 +25,33 @@ public class BallScript : MonoBehaviour
 
     [SerializeField]
     private AudioClip[] popSounds;
-    // Start is called before the first frame update
+
+    public float x, y;
+
+    [SerializeField]
+    private GameObject[] collectableItems;
 
     private void Awake()
     {
+
+        if(this.gameObject.tag == "SmallestBall")
+        {
+            GameplayController.smallBallCount++;
+        }
         SetBallSpeed();
         InstantiateBalls();
     }
+
+    void OnEnable()
+    {
+        PlayerScript.explode += Explode;
+    }
+
+    void OnDisable()
+    {
+        PlayerScript.explode -= Explode;
+    }
+
     void Start()
     {
         
@@ -103,10 +124,135 @@ public class BallScript : MonoBehaviour
 
         }
 
-        AudioSource.PlayClipAtPoint(popSounds[Random.Range(0, popSounds.Length)], transform.position);
-
+        //AudioSource.PlayClipAtPoint(popSounds[Random.Range(0, popSounds.Length)], transform.position);
+        InitializeCollectableItems(transform.position);
+        GiveScoreAndCoins(this.gameObject.tag);
         gameObject.SetActive(false);
     }
+    public void Explode(bool touchedGoldBall)
+    {
+        StartCoroutine(ExplodeBalls(touchedGoldBall));
+    }
+
+
+    IEnumerator ExplodeBalls(bool touchedGoldBall)
+    {
+        if(this.gameObject.tag == "LargestBall")
+        { 
+            yield return null;
+        }
+        else
+        {
+            yield return StartCoroutine(MyCoroutine.WaitForRealSeconds(.5f)); 
+        }
+
+
+        if (gameObject.tag != "SmallestBall")
+        {
+
+            Vector3 position = transform.position;
+            ball1.transform.position = position;
+            ball1Script.SetMoveLeft(true);
+
+            ball2.transform.position = position;
+            ball2Script.SetMoveRight(true);
+
+            ball1.SetActive(true);
+            ball2.SetActive(true);
+
+            if (transform.position.y > 1 && transform.position.y <= 1.3f)
+            {
+                ball1.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 3.5f);
+                ball2.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 3.5f);
+            }
+
+            else if (transform.position.y > 1.3f)
+            {
+                ball1.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 2f);
+                ball2.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 2f);
+            }
+
+            else if (transform.position.y < 1)
+            {
+                ball1.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 5.5f);
+                ball2.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 5.5f);
+            }
+
+        }
+
+        if(touchedGoldBall)
+        {
+            if(this.gameObject.tag != "SmallestBall")
+            {
+                ball1Script.Explode(true);
+                ball2Script.Explode(true);
+            }
+            else
+            {
+                GameplayController.instance.CountSmallBalls();
+            }
+
+            this.gameObject.SetActive(false);
+        }
+        else
+        {
+            if (this.gameObject.tag != "SmallestBall")
+            {
+                ball1Script.Explode(false);
+                ball2Script.Explode(false);
+                this.gameObject.SetActive(false);
+            }
+        }
+    }
+
+    void GiveScoreAndCoins(string objTag)
+    {
+        switch(objTag)
+        {
+            case "LargestBall":
+                GameplayController.instance.coins += Random.Range(15, 20);
+                GameplayController.instance.playerScore += Random.Range(600, 700);
+                break;
+
+            case "LargeBall":
+                GameplayController.instance.coins += Random.Range(13, 18);
+                GameplayController.instance.playerScore += Random.Range(500, 600);
+                break;
+
+            case "MediumBall":
+                GameplayController.instance.coins += Random.Range(11, 16);
+                GameplayController.instance.playerScore += Random.Range(400, 500);
+                break;
+
+            case "SmallBall":
+                GameplayController.instance.coins += Random.Range(10, 15);
+                GameplayController.instance.playerScore += Random.Range(300, 400);
+                break;
+
+            case "SmallestBall":
+                GameplayController.instance.coins += Random.Range(9, 14);
+                GameplayController.instance.playerScore += Random.Range(200, 300);
+                break;
+        }
+    }
+    void InitializeCollectableItems(Vector3 position)
+    {
+        if(this.gameObject.tag != "SmallestBall")
+        {
+            int chance = Random.Range(0, 60);
+
+            if(chance >=0 && chance < 21)
+            {
+                Instantiate(collectableItems[Random.Range(4, collectableItems.Length)],position,Quaternion.identity);
+            }
+
+            else if(chance >= 2 && chance < 21)
+            {
+                Instantiate(collectableItems[Random.Range(0,4)], position, Quaternion.identity);
+            }
+        }
+    }
+
 
     void MoveBall()
     {
@@ -167,6 +313,7 @@ public class BallScript : MonoBehaviour
             }
             else
             {
+                GameplayController.instance.CountSmallBalls();
                 gameObject.SetActive(false);
             }
         }
@@ -208,6 +355,22 @@ public class BallScript : MonoBehaviour
         {
             moveRight = false;
             moveLeft = true;
+        }
+
+        if(target.tag == "Player")
+        {
+            if(PlayerScript.instance.hasShield)
+            {
+                PlayerScript.instance.DestroyShield();
+            }
+            else
+            {
+                if(!PlayerScript.instance.isInvincible)
+                {
+                    Destroy(target.gameObject);
+                    GameplayController.instance.PlayerDied();
+                }
+            }
         }
     }
 }

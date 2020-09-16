@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 820797558338007441}
   - component: {fileID: 8801921320209270721}
   - component: {fileID: 5419485054174978623}
+  - component: {fileID: 8085170311002235329}
   m_Layer: 12
   m_Name: MediumBlueBall
   m_TagString: MediumBall
@@ -121,3 +122,33 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.04}
   serializedVersion: 2
   m_Radius: 1.12
+--- !u!114 &8085170311002235329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8246762857467615173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdba10a34d70305499d2c29fb39762ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myRigidBody: {fileID: 8801921320209270721}
+  moveLeft: 0
+  moveRight: 0
+  originalBall: {fileID: 7830199762694535509, guid: 58d00fe2f8c93ad4cad88c7c049f0c68, type: 3}
+  popSounds:
+  - {fileID: 8300000, guid: 6b8392a90ddba744384bf47228bbd2d5, type: 3}
+  - {fileID: 8300000, guid: a1c3430cc635b4648abee41d3bc3e148, type: 3}
+  x: 0
+  y: 0
+  collectableItems:
+  - {fileID: 8782344689931565913, guid: 7a6c584d3f6fac64ebcb8fa881cc5340, type: 3}
+  - {fileID: 4308487604855106360, guid: fea6c8f859e06fe4c86dbf20c98da7e6, type: 3}
+  - {fileID: 6150511339170412729, guid: 7f29c1904ba3a784c8e91b628709fd0c, type: 3}
+  - {fileID: 2035934380208472832, guid: 9c15e1bbea3fdab4db32b99d8afb3af9, type: 3}
+  - {fileID: 1930571355982805847, guid: d87aa5588d66cfb429ac2ef70620097a, type: 3}
+  - {fileID: 3119420689422957298, guid: 02e3718555ec9c149bb65ffbd6ac89e5, type: 3}
+  - {fileID: 1930571355982805847, guid: d87aa5588d66cfb429ac2ef70620097a, type: 3}
+  - {fileID: 9081482626069845670, guid: d432f64178b17a64cadc0aca0833c57a, type: 3}
