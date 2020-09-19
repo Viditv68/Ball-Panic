@@ -67,6 +67,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4561107138055546577}
   - component: {fileID: 25480387889137205}
+  - component: {fileID: -6154756172255579323}
   m_Layer: 0
   m_Name: Unbreakable Brick Vertical
   m_TagString: Untagged
@@ -143,6 +144,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-6154756172255579323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114283860907137376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ea41be1a8fa35742a35656d27fe68b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  clip: {fileID: 0}
+  x: 0
+  y: 0
 --- !u!1 &1656701600626883268
 GameObject:
   m_ObjectHideFlags: 0

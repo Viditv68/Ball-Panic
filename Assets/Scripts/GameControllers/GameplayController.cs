@@ -33,6 +33,7 @@ public class GameplayController : MonoBehaviour
     private bool isGamePaused, hasLevelBegan, countDownLevel;
 
     public bool levelInProgress;
+
     [SerializeField]
     private GameObject[] endOfLevelRewards;
 

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+//[ExecuteInEditMode]
 
 
 public class BallScript : MonoBehaviour
@@ -54,13 +55,17 @@ public class BallScript : MonoBehaviour
 
     void Start()
     {
-        
+        if(!GameplayController.instance.levelInProgress)
+        {
+            transform.position = Camera.main.ViewportToWorldPoint(new Vector3(x, y, 0));
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
         MoveBall();
+        //transform.position = Camera.main.ViewportToWorldPoint(new Vector3(x, y, 0));
     }
 
     void InstantiateBalls()
